@@ -3,9 +3,9 @@ import { Transaction } from '../types';
 
 // Ensure the API key is available, but do not hardcode it.
 // This relies on the environment being set up correctly.
-const apiKey = process.env.API_KEY;
+const apiKey = import.meta.env.VITE_API_KEY;
 if (!apiKey) {
-  console.error("API_KEY environment variable not set.");
+  console.error("VITE_API_KEY environment variable not set.");
 }
 const ai = new GoogleGenAI({ apiKey: apiKey || '' });
 
