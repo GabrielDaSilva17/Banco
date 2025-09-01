@@ -38,7 +38,7 @@ export const AddTransactionModal: React.FC<AddTransactionModalProps> = ({ isOpen
 
   useEffect(() => {
     if (type === TransactionType.DEBIT) {
-      if (!expenseCategories.includes(category)) {
+      if (!(expenseCategories as Category[]).includes(category)) {
         setCategory(expenseCategories[0]);
       }
     } else { 

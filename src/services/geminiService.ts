@@ -56,7 +56,7 @@ export const getAIResponse = async (
     }
 
     const result: GenerateContentResponse = await currentChat.sendMessage({ message: userQuery });
-    const responseText = result.text;
+    const responseText = result.text ?? "Sorry, I encountered an error while processing your request. Please try again later.";
     
     return { response: responseText, updatedChat: currentChat };
   } catch (error) {
