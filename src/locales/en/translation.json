@@ -1,0 +1,54 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "loading": "Loading..."
+  },
+  "language": {
+    "english": "English",
+    "portuguese": "Português"
+  },
+  "accounts": {
+    "title": "Accounts",
+    "addMoney": "Add Money",
+    "types": {
+      "Checking": "Checking",
+      "Savings": "Savings",
+      "Credit Card": "Credit Card"
+    }
+  },
+  "transactions": {
+    "recent": "Recent Transactions",
+    "addExpense": "Add Expense",
+    "noTransactions": "No transactions yet.",
+    "addModalTitle": "Add Transaction",
+    "type": "Transaction Type",
+    "expense": "Expense",
+    "income": "Income",
+    "description": "Description",
+    "amount": "Amount",
+    "date": "Date",
+    "category": "Category",
+    "addTransaction": "Add Transaction",
+    "categories": {
+      "Groceries": "Groceries",
+      "Utilities": "Utilities",
+      "Transport": "Transport",
+      "Dining Out": "Dining Out",
+      "Income": "Income",
+      "Shopping": "Shopping",
+      "Health": "Health",
+      "Entertainment": "Entertainment"
+    }
+  },
+  "spendingChart": {
+    "title": "Spending by Category",
+    "noData": "No spending data available."
+  },
+  "aiAssistant": {
+    "title": "AI Financial Assistant",
+    "initialMessage": "Hello! I am your AI financial assistant. Ask me anything about your transactions.",
+    "inputPlaceholder": "Ask about your spending...",
+    "errorMessage": "Sorry, I am having trouble connecting. Please try again."
+  }
+}
